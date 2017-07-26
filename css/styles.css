@@ -49,6 +49,9 @@ img {
     background: radial-gradient(circle closest-side,#fff 0%,#fff 98%,rgba(0,0,0,0) 100%)
 }
 
+.angle-down.plus {
+    top: 84%;
+}
 
 /*Section*/
 .text-style{
@@ -57,6 +60,15 @@ img {
     height: 4em;
     color: #fff;
     position: absolute;
+}
+
+.description-style{
+    padding:50px;
+    color: #fff;
+}
+
+.dark-background {
+    background-color: #4f4f4f;
 }
 
 .text-position {
