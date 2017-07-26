@@ -1,0 +1,244 @@
+/*Content*/
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Nav*/
+.title {
+    color:#fff;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Allura', cursive;
+    background-color: transparent;
+}
+
+.border-radius-top {
+    border-radius: 70px 70px 0 0;
+}
+
+.border-radius-bottom {
+    border-radius: 0 0 70px 70px;
+}
+
+.h1, h1 {
+    font-size: 80px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.angle-down {
+    color: lightCoral;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 60px;
+    background: radial-gradient(circle closest-side,#fff 0%,#fff 98%,rgba(0,0,0,0) 100%)
+}
+
+
+/*Section*/
+.text-style{
+    font-size: 40px;
+    font-family: 'Homemade Apple', cursive;
+    height: 4em;
+    color: #fff;
+    position: absolute;
+}
+
+.text-position {
+    top: 5%;
+    width: 20%;
+    left: 10%;
+}
+
+.text-position-1 {
+    top: 5%;
+    width: 20%;
+    right: 5%;
+}
+
+.text-position-2 {
+    top: 30%;
+    width: 20%;
+    right: 70%;
+}
+
+.text-position-2 {
+    top: 30%;
+    width: 20%;
+    right: 70%;
+}
+
+.text-position-3 {
+    top: 70%;
+    width: 20%;
+    right: 7%;
+}
+
+.address-position {
+    top: 10%;
+    width: 20%;
+    right: 40%;
+    font-size: 20px;
+    font-family: 'Homemade Apple', cursive;
+    height: 4em;
+    color: #8b3e2f;
+    position: absolute;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+/* Media */
+
+@media only screen and (min-width: 320px) {
+
+    .title {
+    color:#fff;
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30px;
+    line-height: 2px;
+    font-family: 'Allura', cursive;
+    background-color: transparent;
+    }
+
+    .border-radius-top {
+        border-radius: 70px 70px 0 0;
+    }
+
+    .border-radius-bottom {
+        border-radius: 0 0 70px 70px;
+    }
+
+    .h1, h1 {
+        font-size: 40px;
+    }
+
+    .angle-down {
+    top: 90%;
+    font-size: 30px;
+    }
+
+    .text-style {
+    font-size: 16px;
+    }
+
+    .text-position-1 {
+    right: 70%;
+    }
+
+    .text-position-3 {
+    right: 10%;
+    }
+
+    .address-position {
+    font-size: 12px;
+    top: 10px;
+    width: 200px;
+    right: 90px;
+    text-align: left;
+    }
+
+    h4 {
+    font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .title {
+    top: 25%;
+    left: 50%;
+    font-size: 50px;
+    }
+
+    .h1, h1 {
+        font-size: 60px;
+    }
+
+    .angle-down {
+    top: 90%;
+    font-size: 40px;
+    }
+
+    .text-style {
+    font-size: 25px;
+    }
+
+    .address-position {
+    font-size: 16px;
+    top: 40px;
+    width: 200px;
+    left: 50px;
+    text-align: left;
+    }
+
+    .text-position-1 {
+    right: 75%;
+    }
+
+    h4 {
+    font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .title {
+    top: 25%;
+    left: 50%;
+    font-size: 60px;
+    }
+
+    .h1, h1 {
+        font-size: 70px;
+    }
+
+    .angle-down {
+    top: 95%;
+    font-size: 50px;
+    }
+
+    .text-style {
+    font-size: 40px;
+    }
+
+    .address-position {
+    font-size: 20px;
+    top: 40px;
+    width: 200px;
+    left: 50px;
+    text-align: left;
+    }
+
+    .text-position-1 {
+    right: 75%;
+    }
+
+    h4 {
+    font-size: 30px;
+    }
+
+}
